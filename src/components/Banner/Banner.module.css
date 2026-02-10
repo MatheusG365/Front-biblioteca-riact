@@ -1,0 +1,26 @@
+.fundo_banner{
+    background-image: linear-gradient(to right, #001f3fe8 5%, rgba(255, 255, 255, 0) 90%) , url(/public/fundo_banner.png);
+    background-position: center, center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frase_banner{
+    color: var(--White--);
+}
+
+.titulo_banner{
+    color: var(--White--);
+}
+.coisinha {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 24px;
+}

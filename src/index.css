@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+root{
+    --Black--: #000000;
+    --White--: #FFFFFF;
+    --azul_escuro: #1E124A;
+    --tw-text-opacity: 1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
