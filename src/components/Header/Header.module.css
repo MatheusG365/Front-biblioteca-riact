@@ -44,3 +44,8 @@
 .div_nav{
     align-items: center;
 }
+
+nav a:hover{
+    color: #4a5057;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.botao1 {
+    color: rgb(0 31 63 / var(--tw-text-opacity, 1));
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10rem;
+}
+.botao2 {
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 10rem;
+    border-width: 1px;
+    background-color: transparent;
+}

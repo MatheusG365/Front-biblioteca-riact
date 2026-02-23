@@ -12,7 +12,10 @@
 
 .titulo_banner{
     color: var(--White--);
+    font-size: 4.5rem;
+    line-height: 1;
 }
+
 .coisinha {
     display: inline-block;
     color: white;
@@ -24,3 +27,12 @@
     background: rgba(255, 255, 255, 0.15);
     margin-bottom: 24px;
 }
+
+.colorGradiente{
+    background-image: linear-gradient(to right, white, rgb(0, 0, 0));
+    background-clip: text;
+    color: transparent;
+}
+
+
+
