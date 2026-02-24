@@ -1,7 +1,7 @@
 .fundo_banner{
     background-image: linear-gradient(to right, #001f3fe8 5%, rgba(255, 255, 255, 0) 90%) , url(/public/fundo_banner.png);
     background-position: center, center;
-    height: 500px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -32,6 +32,11 @@
     background-image: linear-gradient(to right, white, rgb(0, 0, 0));
     background-clip: text;
     color: transparent;
+}
+
+.menuHamburguer{
+    color: black !important;
+    background-color: #3c37ff !important;
 }
 
 

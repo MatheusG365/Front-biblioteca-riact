@@ -17,7 +17,7 @@ export default function Banner(){
                             <span className={"d-block"}>nossa seleção premium de obras
                             clássicas e</span><span className={"d-block"}>contemporâneas.</span></p>
                         </div>
-                        <div className={"d-flex align-items-center gap-4 mt-4"}>
+                        <div className={"d-flex flex-column flex-md-row align-items-center gap-4 mt-4 wi"}>
                             <Botao Varialvel2={'botao1'} Text_B={"Explorar Catalogo"}/>
                             <Botao Varialvel2={'botao2'} Text_B={"Ver Promoções"}/>
                         </div>
