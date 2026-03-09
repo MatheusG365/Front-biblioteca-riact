@@ -1,4 +1,5 @@
 import css from "./Header.module.css"
+import {Link} from "react-router-dom";
 
 export default function Header() {
     return (
@@ -8,7 +9,7 @@ export default function Header() {
                     <div className="col-md-12 d-flex justify-content-between align-items-center">
 
                         <div className={css.logo}>
-                            <img className="mt-1" src="/book.png" alt="Logo Book Plus" />
+                            <Link to={"/"}><img className="mt-1" src="/book.png" alt="Logo Book Plus" /></Link>
                             <h1>BOOK MINUS</h1>
                         </div>
 
@@ -24,7 +25,7 @@ export default function Header() {
                             <a href="#">CATÁLOGOS</a>
                             <a href="#">LANÇAMENTOS</a>
                             <a href="#">MAIS VENDIDOS</a>
-                            <button className={css.loginadmbtn}>LOGIN ADMIN</button>
+                            <Link to={'/login'}><button className={css.loginadmbtn}>LOGIN ADMIN</button></Link>
                         </nav>
 
                     </div>

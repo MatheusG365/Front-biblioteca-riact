@@ -1,6 +1,7 @@
 import css from './Home.module.css';
 import BookCard from "../BookCard/BookCard.jsx";
 import Botao from "../Botao/Botao.jsx";
+import {Link} from "react-router-dom";
 
 
 
@@ -85,7 +86,7 @@ export default function Home(){
                                 </div>
                             ))}
                             <div className={"col-12 d-flex justify-content-center py-5"}>
-                                <Botao Varialvel2={"card"} Text_B={"VER CATÁLOGO COMPLETO"}/>
+                                <Link to={"/Catalogo"}><Botao Varialvel2={"card"} Text_B={"VER CATÁLOGO COMPLETO"}/></Link>
                             </div>
                         </div>
                     </div>

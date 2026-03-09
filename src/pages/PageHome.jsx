@@ -8,11 +8,8 @@ import Footer from "../components/Footer/Footer.jsx";
 export default function PageHome() {
     return (
         <>
-            <Header />
             <Banner />
             <Home />
-            <Footer frase={'Sua livraria digital de confiança. Uma curadoria minimalista das obras mais impactantes para o seu crescimento.'}/>
-
         </>
     )
 }
